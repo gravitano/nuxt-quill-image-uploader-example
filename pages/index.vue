@@ -1,3 +1,11 @@
+<script setup lang="ts">
+//
+</script>
+
 <template>
-  <Welcome />
+  <div>
+    <ClientOnly>
+      <CustomQuill />
+    </ClientOnly>
+  </div>
 </template>
